@@ -4,6 +4,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Gallery from './components/Gallery';
 // import PhotoList from './components/PhotoList';
+import ContactForm from './components/Contact';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         currentCategory={currentCategory}
       />
       <main>
+        <ContactForm />
         <Gallery currentCategory={currentCategory} />
         <About />
       </main>
